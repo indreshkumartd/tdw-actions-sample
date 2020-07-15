@@ -10,10 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Treasure Workflow
-      uses: toru-takahashi/treasure-workflow-actions@v0.0.2
+      uses: indreshkumartd/treasure-workflow-actions@v1.0
       with:
         # Treasure Workflow API Endpoint
-        td_wf_endpoint: api-workflow.treasuredata.com
+        td_wf_endpoint: api-workflow.treasuredata.co.jp
         # Treasure Data Master API
         td_master_apikey: ${{ secrets.td_master_apikey }}
         # Treasure Workflow Project Name
