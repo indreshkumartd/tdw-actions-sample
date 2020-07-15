@@ -17,4 +17,4 @@ jobs:
         # Treasure Data Master API
         td_master_apikey: ${{ secrets.td_master_apikey }}
         # Treasure Workflow Project Name
-        td_wf_project_name: workflow
+        td_wf_project_name: my_wf
