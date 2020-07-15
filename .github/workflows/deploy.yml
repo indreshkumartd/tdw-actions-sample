@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Treasure Workflow
-      uses: indreshkumartd/treasure-workflow-actions@v1.0
+      uses: indreshkumartd/treasure-workflow-actions
       with:
         # Treasure Workflow API Endpoint
         td_wf_endpoint: api-workflow.treasuredata.co.jp
